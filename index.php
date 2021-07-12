@@ -17,6 +17,8 @@
   <link rel="stylesheet" href="/zay/lib/lightslider.css">
   <!-- Main Style CSS Link -->
   <link rel="stylesheet" href="/zay/css/style.css">
+  <!-- Media Style CSS Link -->
+  <link rel="stylesheet" href="/zay/css/media.css">
 </head>
 <body>
  <div class="wrap">
@@ -48,6 +50,7 @@
   <header>
    <div class="center">
      <h2 class="logo"><a href="#">Zay</a></h2>
+     <div class="menu_items">
      <ul class="gnb">
       <li><a href="#">Home</a></li>
       <li><a href="#">About</a></li>
@@ -56,8 +59,14 @@
      </ul>
      <div class="login_info">
       <a href="#">로그인</a>
-      <a href="#">회원가입</a>
+      <a href="/zay/pages/join.php">회원가입</a>
       <a href="#"><img src="/zay/img/default-user.png" alt=""></a>
+     </div>
+     </div>
+     <div class="mobile_menu">
+       <span></span>
+       <span></span>
+       <span></span>
      </div>
    </div>
   </header>
@@ -67,7 +76,7 @@
   <section class="slider">
     <!-- Loop Slider BOX -->
     <div class="slider_box">
-      <div class="center slide wrap">
+      <div class="center slide-wrap">
         <div class="slider_txt">
           <h2>Proident occaecat</h2>
           <h4>Ullamco laboris nisi ut</h4>
@@ -107,6 +116,38 @@
       </div>
     </div>
      <!-- End of Loop Slider BOX -->
+  </section>
+  <!-- End of Slider Landing Section -->
+
+  <section class="categories">
+  <div class="center">
+    <div class="tit_box">
+      <h2>Categories of the month</h2>
+      <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt<br> mollit anim id est laborum. </p>
+    </div>
+    <div class="cate_box">
+      <div class="cate_item">
+        <div class="cate_img">
+        <img src="/zay/img/category_img_01.jpg" alt="">
+        </div>
+        <h3>Watches</h3>
+        <a href="#" class="main_btn">Go Shop</a>
+      </div>
+      <div class="cate_item">
+        <div class="cate_img">
+        <img src="/zay/img/category_img_02.jpg" alt="">
+        </div>
+        <h3>Watches</h3>
+        <a href="#" class="main_btn">Go Shop</a>
+      </div>
+      <div class="cate_item">
+        <div class="cate_img">
+        <img src="/zay/img/category_img_03.jpg" alt="">
+        </div>
+        <h3>Watches</h3>
+        <a href="#" class="main_btn">Go Shop</a>
+      </div>
+    </div>
   </section>
  </div>
  <!-- jQuery Framework Load -->
