@@ -35,7 +35,7 @@
 
         <div class="submit_info">
          <button type="button" id="login_btn">로그인</button>
-         <span> 아직 회원이 아니면 <a href="/zay/pages/join_form.php">click</a></span>
+         <span> 아직 회원이 아니면 <a href="/zay/pages/join/join_form.php">click</a></span>
         </div>
       </form>
 

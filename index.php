@@ -3,7 +3,7 @@
 <head>
  <meta charset="UTF-8">
  <meta http-equiv="X-UA-Compatible" content="IE=edge">
- <meta name="viewport" content="width=device-width, initial-scale=0, user-scalable=no, maximum-scale=1" />
+ <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no, maximum-scale=1" />
  <title>Zay Shop</title>
    <!-- Favicon Link -->
   <link rel="shortcut icon" href="/zay/img/favicon.ico" type="image/x-icon">
@@ -73,6 +73,7 @@
   </section>
   <!-- End of Slider Landing Section -->
 
+  <!-- Categories Section -->
   <section class="categories">
   <div class="center">
     <div class="tit_box">
@@ -103,6 +104,9 @@
       </div>
     </div>
   </section>
+  <!-- End of Categories Section -->
+
+ <?php include $_SERVER["DOCUMENT_ROOT"]."/zay/include/footer.php";?>
  </div>
  <!-- jQuery Framework Load -->
  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
