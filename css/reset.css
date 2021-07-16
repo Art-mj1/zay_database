@@ -10,7 +10,8 @@ color:#777;}
 input::placeholder{color:#ccc;}
 textarea{resize:none;}
 img{display:block;}
-
+em{font-style: normal;}
+b{font-weight:normal;}
 /* Setting Reset Layout Style */
 .center{width:100%;margin:auto;max-width:1230px;height:auto;}
 @media screen and(max-width:1230px){.center{padding:0 30px;}}
