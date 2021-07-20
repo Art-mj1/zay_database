@@ -1,5 +1,12 @@
 <?php
-   session_start();
+
+  session_start();
+  if(isset($_SESSION['useridx'])){
+    $useridx=$_SESSION['useridx'];
+  } else{
+    $useridx="";
+  }
+
    if(isset($_SESSION['userid'])){
      $userid=$_SESSION['userid'];
    } else{
