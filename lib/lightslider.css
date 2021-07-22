@@ -110,11 +110,14 @@
 .lSSlideOuter .lSPager.lSpg > li:hover a, .lSSlideOuter .lSPager.lSpg > li.active a {
     background-color: #59ab6e;
 }
+
 .lSSlideOuter .lSPager.lSpg > li.active a{animation:fill-bar 4s 1;}
+
 @keyframes fill-bar{
     0%{width:0;}
     100%{width:100%;}
 }
+
 .lSSlideOuter .media {
     opacity: 0.8;
 }
@@ -166,8 +169,7 @@
 /* End of Gallery*/
 
 /* slider actions */
-.lSAction{position:absolute;width:100%;max-width:1450px;
-    display:flex;justify-content: space-between;left:50%;top:50%;transform:translate(-50%,-50%);}
+.lSAction{position:absolute; width:100%; max-width:1450px; display:flex; justify-content: space-between; left:50%; top:50%; transform:translate(-50%, -50%);}
 .lSAction > a {
     _width: 32px;
     _display: block;
@@ -182,11 +184,11 @@
     _-webkit-transition: opacity 0.35s linear 0s;
     _transition: opacity 0.35s linear 0s;
 }
-.lSAction > a >i{font-size:40px;font-weight:bold;transition:all 0.4s;}
+.lSAction > a > i{font-size:40px; font-weight:bold; transition:all 0.4s;}
 .lSAction > a:hover {
     opacity: 1;
 }
-.lSAction > a:hover{color:#59ab6e;}
+.lSAction > a:hover i{color:#59ab6e;}
 .lSAction > .lSPrev {
     background-position: 0 0;
     left: 10px;
