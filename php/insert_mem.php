@@ -18,7 +18,9 @@
   </script>
  ";
  } else {
-  $mem_pass= $_POST['mem_pass'];
+  $password = $_POST['mem_pass'];
+  //참조:https://zetawiki.com/wiki/PHP_password_verify()
+  $mem_pass= password_hash($password, PASSWORD_DEFAULT);
   $mem_name=$_POST['mem_name'];
   $mem_email=$_POST['mem_email'];
   $mem_regi= date('Y-m-d');

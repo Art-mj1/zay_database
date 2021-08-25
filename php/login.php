@@ -56,3 +56,11 @@ if(!id_match){
 }
 // var_dump($id_match);
 ?>
+
+<!-- if(!password_verify($login_pass, $db_pass)){
+  echo "
+  <script>
+   alert('비밀번호가 틀립니다.');
+   history.go(-1);
+  </script>
+  "; -->
